@@ -2,6 +2,10 @@
 position: relative;
 }
 
+.sl2 .slick-prev:before, .sl2 .slick-next:before {
+    display: none;
+}
+
 .sl_slide2 img{
     background-image: url("../img/table.png") ;
     background-size: 600px;
