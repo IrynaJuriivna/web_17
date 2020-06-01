@@ -1,0 +1,250 @@
+@import'fonts.css';
+
+
+.menu-bar{
+    padding-top: 45px;
+    min-height: 505px;
+
+    /*background-image: url("../img/header.png");
+    
+    background-position:center;
+    background-repeat: no-repeat;*/
+}
+
+navbar{float: right;}
+
+a{
+    color:white;
+}
+.txt{
+    font-size:24px;
+    font-family: 'BrandonGrotesque-Medium';
+    color:#ffffff;
+}
+
+.bg-img {
+    background-image: url("../img/header.png");
+   /* height: 550px;*/
+
+    background-position:center;
+    background-repeat: no-repeat;
+    
+background-position: center top;
+  }
+
+  body{
+      background-color: #fffcf4;
+  }
+  #blog{
+      /* padding-top: 375px; 
+     /* background-image: url("../img/rectangel.png");*/
+  }
+  .vid{
+      margin-top: 70px;
+  }
+  #blog h1{
+      text-align: center;
+
+      font-size: 30px;
+      font-family: 'BrandonGrotesque-Medium';
+      color:#626262;
+  }
+  #blog h2{
+      
+    margin-top: 0.4em;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'BrandonGrotesque-Medium';
+    color:#42c3ac;
+}
+#blog h3{
+    
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'BrandonGrotesque-Regular';
+    color:#626262;
+}
+#blog p{
+    line-height: 2em;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    font-size: 18px;
+    font-family: 'ACaslonPro-Regular';
+    color:#626262;
+}
+.gam{
+    float: right;
+}
+
+.fon{
+background-color: white;
+}
+  
+.pict{
+    width: inherit;
+}
+.pict2{
+    background-image: url("../img/rectangel.png") ;
+
+background-repeat: no-repeat;
+background-position: center top;
+}
+* {
+    transition: all 0.5s;
+  }
+  .box{
+      
+  
+    position: absolute;
+  transform: translate(-50%, -50%);
+     top: 400px;
+     left: calc(50% );
+     cursor: pointer;
+    /*   width: 50px;
+     height: 120px;
+     opacity: 0.85;
+    border-radius: 50%;
+      background-color: beige;*/
+/*  
+   
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+  }
+
+.box span{
+    display: block;
+    
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #42c3ac;
+    border-right: 5px solid #42c3ac;
+    transform:rotate(45deg);
+    margin:-10px;
+    animation: animate 2s infinite;
+}
+.box span :nth-child(2){
+    animation-delay: -0.2s;
+}
+.box span :nth-child(3){
+    animation-delay: -0.4s;
+}
+
+@keyframes animate{
+    0%{
+        opacity:0;
+        
+    transform:rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+        transform:rotate(45deg) translate(20px,20px);
+    }
+}
+
+  .mouse_scroll {
+  width: 70px;
+  height: 70px;
+  background: #fdb62f;
+  opacity: 0.85;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 270px;
+  left: calc(50% - 35px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+footer{
+    text-align:left ;
+    margin-top:40px;
+   padding-top:120px;
+      min-height:250px;
+    background-image: url("../img/footer.png");
+  
+    background-position:center;
+    background-repeat: no-repeat;
+    
+background-position: center top;
+
+transition-duration: .2s;
+
+  }
+
+  footer a {
+    transition: 1.5s ease-out; 
+   }
+.foot2 a{
+      
+       
+}
+.foot2 a:hover{
+    transition: color 1.5s ease-out; 
+    color:blue;
+}
+
+
+  footer h1{
+    padding-bottom: 1em;;
+    text-align: center;
+padding-left: 0px;
+    font-size: 36px;
+    font-family: 'BrandonGrotesque-Medium';
+    color:#ffffff;
+}
+.shape{
+    padding-right:0px;
+    margin-right:0px;
+}
+.button {
+    min-width: 180px;
+    font-size: 26px;
+    font-family: 'BrandonGrotesque-Medium';
+    color:#464948;
+
+    padding: 10px 10px 10px 10px;
+    border: 2px solid #464948;
+    border-radius: 0 0 0 0;
+    background: transparent;
+    
+text-align: center;
+    align-self: center;
+    orientation: center;
+ }
+ .foot1 {
+     margin-top: 4em;
+    padding-top:1em;
+    padding-bottom:1em;
+     width: 100%;
+   background: #464948;
+   
+   }
+   .foot1 a{
+       font-size: 30px;
+   }
+   .foot2 {
+ 
+    height:fit-content;
+     width: 100%;
+   text-align: left;
+    font-family: 'BrandonGrotesque-Regular';
+    color:#ffffff;
+   
+   
+   }
+   footer a{
+   }
+   footer p, a{
+    font-size: 24px;
+    font-family: 'BrandonGrotesque-Light';
+    color:#ffffff;
+   }
